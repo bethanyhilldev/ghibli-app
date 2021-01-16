@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+    background: #493342;
+   }
+   
+   .totoroimg {
+    max-width: 100%;
+    height: auto;
+   }
+   
+ 
+   .navigation_box {
+     position: absolute;
+     top: 40px;
+     left: 40px; 
+   }
+
+   .boxcontent {
+    font-family: 'Spartan', sans-serif;
+    padding: 45px 30px;
+    width: 250px;
+    background-color: rgba(0,0,0,0.4);
+    color: #FFFFFF;
+    border-radius: 20px;
+  }
+
+   #getfilms,
+   .charbutton {
+       width: 150px;
+       border-radius: 40px;
+       padding: 10px;
+       font-family: 'Spartan', sans-serif;
+       margin-top: 20px;
+       margin-left: 45px;
+       border: 1px solid #FFFFFF;
+   }
+   .cardrow {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     flex-flow: row wrap;
+     justify-content: space-between;
+   }
+   
+   .card {
+    width: 400px;
+    background-color: #d6ccc8;
+    padding: 20px;
+    border: 1px solid #acacac;
+    font-family: 'Spartan', sans-serif;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 10px 11px 0px rgba(0,0,0,0.4)
+   }
+
+   .cardinfo p:not(:last-child) {
+    margin-bottom: 0;
+    margin-top: 5px;
+   }
+
+   .card h3 {
+    font-weight: bolder;
+   }
+
+   .charbutton {
+    width: 70%;
+   }
